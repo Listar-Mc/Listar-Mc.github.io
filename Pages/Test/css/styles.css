@@ -3247,14 +3247,14 @@ img.u-pull-left {
     aspect-ratio        : 1/1;
     width               : 100%;
     background-color    : var(--color-gray-4);
-    background-image    : url(../images/intro-bg.jpg);
+    background-image    : url(../Elden Ring Background Music - Copy.png);
     background-repeat   : no-repeat;
     background-position : center;
     background-size     : cover;
     position            : relative;
 }
 
-.s-intro__bg::after {
+.::after {
     display        : block;
     content        : "";
     position       : absolute;
