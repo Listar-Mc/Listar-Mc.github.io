@@ -3672,7 +3672,7 @@ img.u-pull-left {
     z-index          : 1;
     content          : "";
     display          : block;
-    background-color : rgba(0, 0, 0, 0.5);
+    background-color : var(--color-border);;
     opacity          : 0;
     visibility       : hidden;
     position         : absolute;
