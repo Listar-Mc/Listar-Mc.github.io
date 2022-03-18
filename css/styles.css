@@ -145,7 +145,7 @@
     --color-gray-3                 : #dbe0e0;
     --color-gray-2                 : #e7eaea;
     --color-gray-1                 : #f3f5f5;
-    --color-white                  : #ffffff;
+    --color-white                  : #cfe7e9;
 
     /* text
      */
@@ -3633,7 +3633,7 @@ img.u-pull-left {
 .s-works {
     padding-top      : calc(6 * var(--space));
     padding-bottom   : calc(5.5 * var(--space));
-    background-color : white;
+    background-color : RGB(207,231,233);
 }
 
 /* ------------------------------------------------------------------- 
@@ -3692,7 +3692,7 @@ img.u-pull-left {
     font-family : var(--font-1);
     font-weight : 300;
     font-size   : 3rem;
-    color       : white;
+    color       : RGB(207,231,233);
     display     : block;
     height      : 3.2rem;
     width       : 3.2rem;
