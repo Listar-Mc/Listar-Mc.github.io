@@ -5385,3 +5385,153 @@ body.search-is-visible .s-header__search-inner {
     margin-bottom: 24px;
     align-items: center;
 }
+header {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 7%;
+    background: rgb(60,63,69);
+    background: linear-gradient(180deg, #3c3f45 0%, #2e3139 70%);
+    box-shadow: 0px 5px 15px 5px rgba(21,23,28,0.3);
+    height: 100px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 0.5s ease 0s;
+    z-index: 200
+}
+h1, h2 {
+    color: #fbfdfd;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    margin: 20px 0px 15px 0px;
+    cursor: default
+}
+.smaller {
+    margin: 0px 0px 15px 0px;
+    font-variant: small-caps;
+    text-decoration: underline;
+}
+h3 {
+    font-size: 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+p {
+    color: #888d97;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+}
+.highlight {
+    color: #2a8fe8;
+    font-size: 20px;
+}
+header a img  {
+    width: 80%;
+    padding-top: 5px;
+    transition: all 0.5s ease 0s;
+}
+.logonav {
+    cursor: pointer;
+}
+.navlist {
+    list-style: none;
+}
+.navlist li {
+    transition: all 0.2s ease 0s;
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navlist li a {
+    transition: all 0.2s ease 0s;
+}
+.navlist li a:hover {
+    color: #3183fd;
+}
+.navlist li:hover {
+    transform: translateY(-5px);
+    text-shadow: 0px 6px 15px 4px #1B1D23;
+}
+.contactbtn {
+    margin-top: -5px;
+    padding: 9px 25px;
+    background: none;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.2s ease 0s;
+    cursor: pointer;
+}
+.contactbtn:hover {
+    transform: scale(1.05);
+    color: #3183fd;
+}
+.fixed {
+    height: 65px;
+    box-shadow: 0px 5px 15px 5px rgba(21,23,28,0.6);
+    transition: all 0.5s ease 0s;
+}
+.welcomescreen img {
+    width: 100%;
+    padding-top: 80px;
+    background-color: #3183fd; 
+
+}
+.showingboi img {
+    width: 50%;
+    padding-top: 80px;
+    background-color: #3183fd; 
+}
+::-webkit-scrollbar {
+    background: rgb(14,18,22);
+    background: linear-gradient(0deg, rgba(14,18,22,1) 0%, rgba(55,59,64,1) 25%, rgba(55,59,64,1) 75%, rgba(14,18,22,1) 100%);
+    width: 12px;
+    border-radius: 200px;
+    transition: all 0.5s ease 0s;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(50,138,252);
+    background: linear-gradient(230deg, rgba(50,158,252) 0%, rgba(40,40,239) 100%);
+    border-radius: 200px;
+}
+
+header a img  {
+    width: 80%;
+    padding-top: 5px;
+    transition: all 0.5s ease 0s;
+}
+.logonav {
+    cursor: pointer;
+}
+.navlist {
+    list-style: none;
+}
+.navlist li {
+    transition: all 0.2s ease 0s;
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navlist li a {
+    transition: all 0.2s ease 0s;
+}
+.navlist li a:hover {
+    color: #3183fd;
+}
+.navlist li:hover {
+    transform: translateY(-5px);
+    text-shadow: 0px 6px 15px 4px #1B1D23;
+}
+.contactbtn {
+    margin-top: -5px;
+    padding: 9px 25px;
+    background: none;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.2s ease 0s;
+    cursor: pointer;
+}
+.contactbtn:hover {
+    transform: scale(1.05);
+    color: #3183fd;
+}
