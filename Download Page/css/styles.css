@@ -3051,13 +3051,13 @@ img.u-pull-left {
     text-transform : uppercase;
     letter-spacing : .1em;
     line-height    : 1.455;
-    color          : black;
+    color          : White;
     margin-bottom  : var(--vspace-0_375);
 }
 
 .bricks-wrapper .entry__meta a {
     font-weight : 300;
-    color       : var(--color-gray-15);
+    color       : White;
 }
 
 .bricks-wrapper .entry__meta a:focus,
@@ -3097,7 +3097,7 @@ img.u-pull-left {
     font-size      : 1.1rem;
     text-transform : uppercase;
     letter-spacing : .15em;
-    color          : black;
+    color          : White;
     border-bottom  : 1px solid transparent;
 }
 
