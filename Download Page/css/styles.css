@@ -5367,3 +5367,21 @@ body.search-is-visible .s-header__search-inner {
         padding-top : var(--vspace-1);
     }
 }
+
+#title img {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 50%;
+    max-width: 100% !important;
+    min-width: 300px;
+}
+
+#title {
+    height: 90vh;
+    width: 100vw;
+    max-width: 100% !important;
+    margin-bottom: 24px;
+    align-items: center;
+}
