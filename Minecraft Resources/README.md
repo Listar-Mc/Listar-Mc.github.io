@@ -1,2 +1,2 @@
-# The Morning Company
-This is the repository for The Morning Company's website on GitHub Pages.
+# Minecraft Resources
+This is the repository for Minecraft Resources website on GitHub Pages.
