@@ -238,6 +238,7 @@ a:active { text-decoration: none; }
     width: 70%;
     text-align: justify;
     margin: auto;
+    background: #ffff;
 }
 .smlist {
     width: 100%;
