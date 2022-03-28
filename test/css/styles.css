@@ -128,7 +128,7 @@
      * Tint & Shade Generator 
      * (https://maketintsandshades.com/)
      */
-    --color-black                  : #000000;
+    --color-black                  : #474149;
     --color-gray-19                : #141415;
     --color-gray-18                : #27292a;
     --color-gray-17                : #3b3d40;
@@ -152,7 +152,7 @@
 
     /* text
      */
-    --color-text                   : var(--color-black);
+    --color-text                   : var(--color-white);
     --color-text-dark              : var(--color-black);
     --color-text-light             : var(--color-gray-15);
     --color-placeholder            : var(--color-gray-13);
@@ -174,7 +174,7 @@
 
     /* preloader
      */
-    --color-preloader-bg           : white;
+    --color-preloader-bg           : #474149;
     --color-loader                 : black;
     --color-loader-light           : rgba(0, 0, 0, 0.1);
 
