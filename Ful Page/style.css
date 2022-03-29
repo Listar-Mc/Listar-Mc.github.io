@@ -1,0 +1,294 @@
+:root {
+    --light-background: #F2F2F7;
+    --dark-background: #232024;
+    --pack-button-hover: #e1e1e8;
+    --pack-button-active: #c9c9d3;
+    --pack-card-dark: #333033;
+    --pack-button-dark: #232024;
+    --pack-button-hover-dark: #363138;
+    --pack-button-active-dark: #474149;
+}
+
+* {
+    font-family: "Avenir Next", -apple-system, BlinkMacSystemFont, Roboto,"Segoe UI", sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+::selection {
+    background: #3EDD51;
+}
+
+body {
+    background-color: var(--light-background);
+}
+img {
+    position: absolute;
+    max-width: 100% !important;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    padding: 24px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4 {
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+}
+
+#title img {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 50%;
+    max-width: 100% !important;
+    min-width: 300px;
+}
+
+#title {
+    height: 90vh;
+    width: 100vw;
+    max-width: 100% !important;
+    margin-bottom: 24px;
+    align-items: center;
+}
+
+#scrollBtn {
+    margin-bottom: 164px;
+}
+
+#scrollBtnImg {
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#footer {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 44px;
+    justify-content:center;
+}
+
+#footer img {
+    min-width: 44px;
+    padding-top: 44px;
+    padding-bottom: 44px;
+    justify-content:center;
+}
+
+#copyrightnote {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    height: 75px;
+    width: 80%;
+    text-align: center;
+    align-items: center;
+    line-height: 25/2px;
+    border-radius: 15px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 25%);
+    opacity: 25%;
+    max-width: 100% !important;
+}
+
+.packCard {
+    width: 310px;
+    height: 336px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 32px;
+    box-shadow: none;
+    border: solid rgba(0,0,43,0.0);
+    transform: none;
+    transition: box-shadow 0.4s, border 0.4s, transform 0.4s;
+}
+#packCardImg {
+    width: 281px;
+    height: 190px;
+    margin-top: 15px;
+    border-radius: 18px;
+    object-fit: cover;
+}
+#packBtn {
+    underline: none;
+    background-color: var(--light-background);
+    min-width: 280px;
+    max-width: 372px;
+    height: 52px;
+    padding-top: 16px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 18px;
+    color: black;
+    transition: background-color 0.4s;
+}
+
+#textAndBtn {
+    margin-top: 195px;
+}
+
+.packCard:hover {
+    box-shadow: 0px 15px 40px rgba(7,7,44,0.08);
+    border: solid rgba(0,0,43,0.04);
+    transform: translate(0px,-6px);
+}
+#packBtn:hover {
+    background-color: var(--pack-button-hover);
+}
+#packBtn:active {
+    background-color: var(--pack-button-active);
+}
+
+
+#packs {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 320px);
+    gap: 36px;
+    justify-content:center;
+}
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
+
+@media(prefers-color-scheme: dark) {
+    body {
+        background-color: var(--dark-background);
+    }
+    #footer img {
+        filter: invert(100%);
+    }
+    
+    .packCard {
+        background-color: var(--pack-card-dark);
+    }
+    
+    #packBtn {
+        background-color: var(--pack-button-dark);
+        color: white;
+    }
+    
+    
+    #title img {
+        content: url("img/title/minecraft dark.svg")
+    }
+    
+    #packBtn:hover {
+        background-color: var(--pack-button-hover-dark);
+    }
+    #packBtn:active {
+        background-color: var(--pack-button-active-dark);
+    }
+    #scrollBtnImg {
+        filter: invert(100%)
+    }
+    
+    h1 {
+        color: white;
+    }
+    h2 {
+        color: white;
+    }
+    h3 {
+        color: white;
+    }
+    h4 {
+        color: white;
+    }
+    #copyrightnote {
+        color: #FFFFFF;
+    }
+}
+::-webkit-scrollbar {
+    background: rgb(14,18,22);
+    background: linear-gradient(0deg, rgba(14,18,22,1) 0%, rgba(55,59,64,1) 25%, rgba(55,59,64,1) 75%, rgba(14,18,22,1) 100%);
+    width: 12px;
+    border-radius: 200px;
+    transition: all 0.5s ease 0s;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(50,138,252);
+    background: linear-gradient(230deg, rgba(50,158,252) 0%, rgba(40,40,239) 100%);
+    border-radius: 200px;
+}
+.descriptiontxt2 {
+    font-size: 16px;
+    width: 70%;
+    text-align: justify;
+    margin: auto;
+    color: white;;
+}
+.smlist {
+    width: 100%;
+    margin: 10px auto 10px auto;
+    box-sizing: border-box;
+    list-style-type: none;
+    display: block;
+    overflow: hidden;
+}
+.smlist a div {
+    width: 20%;
+    display: table;
+    margin: auto;
+    padding: 5px 0px 5px 0px;
+    transition: all 0.2s ease 0s;
+}
+.smlist a div:hover {
+    transform: scale(0.95);
+}
+.smlist a div img {
+    width: 50px;
+    vertical-align: middle;
+}
+.about h2 {
+    text-decoration: underline;
+}
+.referrals {
+    width: 60%;
+    margin: 10px auto 50px auto;
+    text-align: center;
+}
+.referrals a img {
+    margin: 20px;
+    transition: all 0.2s ease 0s;
+    box-shadow: 0px 5px 15px 5px rgba(21,23,28,0.3);
+}
+.referrals a img:hover {
+    transition: all 0.2s ease 0s;
+    transform: scale(0.95);
+    box-shadow: none;
+}
+form input{
+    margin: 20px;
+    transition: all 0.2s ease 0s;
+}
+form input:hover {
+    transition: all 0.2s ease 0s;
+    transform: scale(0.95);
+}
+.topnav {
+    display: none;
+}
+/*# sourceMappingURL=style.css.map */
