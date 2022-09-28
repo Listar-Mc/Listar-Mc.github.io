@@ -173,9 +173,9 @@ a:hover { text-decoration: none; }
 
 a:active { text-decoration: none; }
 
-@media(prefers-color-scheme: dark) {
+@media(prefers-color-scheme: light) {
     body {
-        background-color: var(--dark-background);
+        background-color: var(--light-background);
     }
     #footer img {
         filter: invert(100%);
